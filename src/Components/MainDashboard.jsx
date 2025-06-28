@@ -19,7 +19,7 @@ import { RiSearch2Line } from "react-icons/ri";
 import { HiOutlineTerminal } from "react-icons/hi";
 import { GoGraph } from "react-icons/go";
 import { IoIosArrowDown } from "react-icons/io";
-
+import { SlOptions } from "react-icons/sl";
 
 ChartJS.register(
   LineElement,
@@ -146,36 +146,42 @@ const MainDashboard = () => {
               <span className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                 <GoGraph />
               </span>
-              
-                <p className="font-medium">Product Review for UI8 Market</p>
-                <p className="text-xs text-gray-500">In progress</p>
-              
+
+              <p className="font-medium">Product Review for UI8 Market</p>
             </div>
-            <div className="text-sm text-gray-500">4h</div>
+            <div className="flex justify-end items-center gap-10">
+              <p className="text-xs text-gray-500">In progress</p>
+              <div className="text-sm text-gray-500">4h</div>
+              <SlOptions />
+            </div>
           </li>
           <li className="flex justify-between items-center">
             <div className="flex items-center gap-3">
               <span className="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center">
                 <RiSearch2Line />
               </span>
-              
-                <p className="font-medium">UX Research for Product</p>
-                <p className="text-xs text-gray-500">On hold</p>
-              
+
+              <p className="font-medium">UX Research for Product</p>
             </div>
-            <div className="text-sm text-gray-500">8h</div>
+            <div className="flex justify-end items-center gap-10">
+              <p className="text-xs text-gray-500">Onhold</p>
+              <div className="text-sm text-gray-500">8h</div>
+              <SlOptions />
+            </div>
           </li>
           <li className="flex justify-between items-center">
             <div className="flex items-center gap-3">
               <span className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center">
                 <HiOutlineTerminal />
               </span>
-              
-                <p className="font-medium">App design and development</p>
-                <p className="text-xs text-gray-500">Done</p>
-              
+
+              <p className="font-medium">App design and development</p>
             </div>
-            <div className="text-sm text-gray-500">32h</div>
+            <div className="flex justify-evenly items-center gap-10">
+              <p className="text-xs text-gray-500">Done</p>
+              <div className="text-sm text-gray-500">32h</div>
+              <SlOptions />
+            </div>
           </li>
         </ul>
       </div>
