@@ -1,21 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Paywize Dashboard
 
-Currently, two official plugins are available:
+A modern, responsive admin dashboard UI built with **React**, **Tailwind CSS**, **Chart.js**, and **React Icons**.  
+This project mimics a real-time team performance tracker with sections like sidebar navigation, performance charts, task tracking, and user activity feed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Interactive performance line chart using Chart.js
+- Task progress with colour-coded status
+- Team member activity feed
+- Clean and responsive layout with Tailwind CSS
+- Modern icon set from React Icons
+- Fully customizable layout components
 
+---
 
-git init
-git add .
-git commit -m "Initial commit"
+## Tech Stack
 
-git remote add origin https://github.com/your-username/dashboard-ui.git
-git branch -M main
-git push -u origin main
+- **React** – Frontend Framework
+- **Tailwind CSS** – Utility-first CSS framework
+- **Chart.js** – Graph rendering
+- **React Icons** – Icon library
+
